@@ -1,0 +1,54 @@
+console.log("Olá, mundo!");
+VM142:1 Olá, mundo!
+undefined
+window.alert("Cuidado com a dispersão!");
+undefined
+console.log(10 + 5);
+VM309:1 15
+undefined
+console.log("meu nome é:");
+VM389:1 meu nome é:
+undefined
+const nome = "Raphael";
+const idade = 19;
+undefined
+console.log("meu nome é:", nome, idade);
+VM537:1 meu nome é: Raphael 19
+undefined
+console.log("meu nome é:", nome, "e tenho:", idade, "anos de idade");
+VM608:1 meu nome é: Raphael e tenho: 19 anos de idade
+undefined
+console.log("meu nome é:", nome, "e tenho", idade, "anos de idade");
+VM614:1 meu nome é: Raphael e tenho 19 anos de idade
+undefined
+let pontos = 10;
+pontos;
+pontos = 25;
+pontos;
+25
+console.log(typeof "ADS");
+VM849:1 string
+undefined
+console.log(typeof 45);
+VM867:1 number
+undefined
+console.log(typeof 50.57);
+VM891:1 number
+undefined
+var1 = 15;
+var2 = 20;
+20
+soma = var1 + var2;
+35
+n1 = 20, n2 = 4, soma = n1 + n2, sub = n1 - n2, mult = n1 * n2, divisao = n1/n2;
+console.log("soma:", soma, ", sub:", sub, ", mult", mult, ", divisao:", divisao);
+VM1899:2 soma: 24 , sub: 16 , mult 80 , divisao: 5
+undefined
+nt1 = 7, nt2 = 8, nt3 = 9, media = nt1 + nt2 + nt3 / 3;
+console.log("a media das 3 notas é:", media);
+VM2193:2 a media das 3 notas é: 18
+undefined
+nt1 = 7, nt2 = 8, nt3 = 9, media = (nt1 + nt2 + nt3) / 3;
+console.log("a media das 3 notas é:", media);
+VM2199:2 a media das 3 notas é: 8
+undefined
